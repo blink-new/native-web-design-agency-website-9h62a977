@@ -24,7 +24,8 @@ import MindfulMomentMeditationApp from './mockups/MindfulMomentMeditationApp';
 import FitSyncTrainingPlatform from './mockups/FitSyncTrainingPlatform';
 import CreativeFlowDesignSystem from './mockups/CreativeFlowDesignSystem';
 import SaasLandingPageDemo from './mockups/SaasLandingPageDemo';
-// TODO: Import HotelWebsiteDemo and PortfolioResumeDemo when created
+import HotelWebsiteDemo from './mockups/HotelWebsiteDemo';
+import PortfolioResumeDemo from './mockups/PortfolioResumeDemo';
 
 function App() {
   return (
@@ -129,7 +130,8 @@ function App() {
         <Route path="/mockups/training-platform" element={<FitSyncTrainingPlatform />} />
         <Route path="/mockups/design-system" element={<CreativeFlowDesignSystem />} />
         <Route path="/mockups/saas-landing" element={<SaasLandingPageDemo />} />
-        {/* TODO: Add HotelWebsiteDemo and PortfolioResumeDemo routes */}
+        <Route path="/mockups/hotel-website" element={<HotelWebsiteDemo />} />
+        <Route path="/mockups/portfolio-resume" element={<PortfolioResumeDemo />} />
         
         <Route path="*" element={<Navigate to="/404" />} />
       </Routes>
