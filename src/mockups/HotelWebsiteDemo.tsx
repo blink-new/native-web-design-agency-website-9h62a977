@@ -41,10 +41,10 @@ export default function HotelWebsiteDemo() {
           --accent-foreground: 44 10% 15%;
           --border: 154 15% 85%;
           --ring: 154 64% 32%;
-          font-family: 'Quicksand', sans-serif;
+          font-family: 'Quicksand', sans-serif !important;
         }
-        .casa-verde-theme h1, .casa-verde-theme h2, .casa-verde-theme h3 {
-          font-family: 'Playfair Display', serif;
+        .casa-verde-theme h1, .casa-verde-theme h2, .casa-verde-theme h3, .casa-verde-theme h4, .casa-verde-theme h5, .casa-verde-theme h6 {
+          font-family: 'Playfair Display', serif !important;
         }
         .casa-verde-theme .bg-emerald-50 { background-color: hsl(154 64% 96%); }
         .casa-verde-theme .text-emerald-700 { color: hsl(154 64% 32%); }

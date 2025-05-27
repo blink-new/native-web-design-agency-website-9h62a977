@@ -1,6 +1,6 @@
 import MockupLayout from './MockupLayout';
 import { Button } from '../components/ui/button';
-import { Briefcase, Mail, Github, Linkedin, Code2, Star } from 'lucide-react';
+import { Mail, Github, Linkedin, Code2, Star } from 'lucide-react';
 import '@fontsource/poppins/700.css';
 import '@fontsource/fira-mono/400.css';
 

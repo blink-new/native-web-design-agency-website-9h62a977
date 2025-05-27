@@ -47,7 +47,10 @@ export default function SaasLandingPageDemo() {
           --accent-foreground: 200 10% 15%;
           --border: 200 15% 85%;
           --ring: 200 100% 55%;
-          font-family: 'Raleway', sans-serif;
+          font-family: 'Raleway', sans-serif !important;
+        }
+        .cloudly-theme h1, .cloudly-theme h2, .cloudly-theme h3, .cloudly-theme h4, .cloudly-theme h5, .cloudly-theme h6 {
+          font-family: 'Raleway', sans-serif !important;
         }
         .cloudly-theme .bg-sky-50 { background-color: hsl(200 100% 97%); }
         .cloudly-theme .text-sky-500 { color: hsl(200 100% 55%); }
